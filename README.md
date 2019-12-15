@@ -1,2 +1,7 @@
-# 16A-proofbuilder
-fall 2019 eecs 16a extra credit project
+# EECS 16A Proof Builder
+
+built with react, (dragula)[https://github.com/bevacqua/dragula] for card movement
+
+![stuff](drag1.gif)
+
+![stuff](drag2.gif)

@@ -3,6 +3,25 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 	<script src="index.js" type="text/babel"></script>
+  <script>
+  function addy(){
+    var idel = document.getElementById('fml');
+    var stuff = "<div class='ideacard'>"+   document.getElementById("inzo").value +"</div>";
+    idel.innerHTML += stuff;
+  }   
+</script>
+  <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+</script>
+
 </head>
 <body>
 
@@ -14,10 +33,16 @@
 		<div class="holder70">
 			<div class="desc">
 			<h2>use this proof builder to help guide your linear algebra thoughts. drag and drop existing theorems around, or add your own blocks.</h2>
+</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="container"></div>
+<div class="ideaholder" id="fml">
+  <input value = "type text or LaTeX delimited by single dollar signs here, try '$y=mx+b$'" id="inzo"></input>
+  <button onclick="addy()"> add reasoning </button>
+</div> 
+
+<div id="container"></div>
 
 </body>
