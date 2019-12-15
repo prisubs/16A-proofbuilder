@@ -1,6 +1,6 @@
 # EECS 16A Proof Builder
 
-built with react, (dragula)[https://github.com/bevacqua/dragula] for card movement
+built with react, [dragula](https://github.com/bevacqua/dragula) for card movement, and mathjax
 
 ![stuff](drag1.gif)
 
